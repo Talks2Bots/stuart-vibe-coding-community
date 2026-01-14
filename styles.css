@@ -123,6 +123,24 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.meetup-link {
+    margin-top: 20px;
+}
+
+.meetup-link a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.meetup-link a:hover {
+    border-bottom-color: var(--yellow);
+    color: var(--yellow);
+}
+
 /* Buttons */
 .btn {
     display: inline-flex;
